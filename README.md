@@ -12,7 +12,7 @@
 
 > Write a library that contains ft_printf(), a function that will mimic the original printf().
 
-<h2>✅ Project's requirements</h2>
+<h2>✔️ Project's requirements</h2>
 
 - Don’t implement the buffer management of the original `printf()`.
 - Your function has to handle the following conversions: `cspdiuxX%`.
