@@ -3,8 +3,6 @@
 <h1>ft_printf</h1>
 
 <a href="https://imgflip.com/i/7sjmr3"><img src="https://i.imgflip.com/7sjmr3.jpg" width="300px" title="meme"/></a>
-  
-<a><img src="https://badge42.vercel.app/api/v2/clj4r0l4t004008mgcfxas4fw/project/2865288" title="score"/></a>
 
 </div>
 
