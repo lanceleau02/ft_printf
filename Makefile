@@ -6,7 +6,7 @@
 #    By: laprieur <laprieur@student.42.fr>          +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2023/06/30 10:34:25 by laprieur          #+#    #+#              #
-#    Updated: 2023/07/02 12:23:12 by laprieur         ###   ########.fr        #
+#    Updated: 2024/05/26 18:17:24 by laprieur         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -16,15 +16,15 @@ NAME			:=	libftprintf.a
 #                                 INGREDIENTS                                  #
 # **************************************************************************** #
 
-MANDATORY		:=	ft_printf.c			\
-					ft_printf_utils.c	\
+MANDATORY		:=	src/ft_printf.c			\
+					src/ft_printf_utils.c	\
 
 M_OBJS			:=	$(MANDATORY:%.c=.build/%.o)
 DEPS			:=	$(M_OBJS:%.o=%.d)
 
 CC				:=	clang
 CFLAGS			:=	-Wall -Wextra -Werror -Ofast
-CPPFLAGS		:=	-MP -MMD
+CPPFLAGS		:=	-MP -MMD -Iinclude -Iinclude/ft_printf.h
 LDFLAGS			:=
 
 # **************************************************************************** #
