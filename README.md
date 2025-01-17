@@ -48,7 +48,7 @@ Use the `libftprintf.a` file in your own C project by linking it during compilat
 
 ## Usage
 
-1. Include the header:
+1. Include the header file:
 
 In your C project, include the `ft_printf.h` header file to access the functions provided by the library.
 
